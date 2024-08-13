@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info</title>
+    <link rel="stylesheet" href="css/tabla.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th colspan="5">Usuario Registrado</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Username</th>
+          <th>Nombre Real</th>
+          <th>Contraseña</th>
+          <th>Biografia</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="formulario">
+      <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+          <form action="" method="POST">
+            <div class="formbold-form-title">
+              <h2 class="">Modificar Usuario</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="username" class="formbold-form-label">
+                  Username
+                </label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div>
+                <label for="password" class="formbold-form-label">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="realName" class="formbold-form-label">
+                  Real name
+                </label>
+                <input
+                  type="text"
+                  name="realName"
+                  id="realName"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div class="formbold-mb-3">
+              <label for="bio" class="formbold-form-label"> Biography </label>
+              <input
+                type="text"
+                name="bio"
+                id="bio"
+                class="formbold-form-input"
+              />
+            </div>
+
+            <button id="btnModificar" class="formbold-btn">Modificar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <button id="login">Iniciar Sesión</button>
+    <script src="js/tabla.js"></script>
+  </body>
+</html>
